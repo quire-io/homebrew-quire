@@ -11,19 +11,19 @@ class Quire < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/quire-io/quire-cli/releases/download/v0.1.1/quire-darwin-arm64"
-      sha256 "f5974424bcaf5bc170f55c0a9cb3f3093c0abe99cc4b769bd4653920d2963012"
+      url "https://github.com/quire-io/quire-cli/releases/download/v0.1.2/quire-darwin-arm64"
+      sha256 "e834de214701194a6cadf01976b6d882d9081680b8562cfa3a63bf4fd8c68ca8"
     end
     on_intel do
-      url "https://github.com/quire-io/quire-cli/releases/download/v0.1.1/quire-darwin-x64"
-      sha256 "1e75410b1b8aa177efe742dfa3a6e36584b9e34ea3d39f0ca0dd71e5d5c82688"
+      url "https://github.com/quire-io/quire-cli/releases/download/v0.1.2/quire-darwin-x64"
+      sha256 "e9cae097548be630f38e999558376da48f7ecdbee1373dbb9c45179f05fef6df"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/quire-io/quire-cli/releases/download/v0.1.1/quire-linux-arm64"
-      sha256 "a07fa787f5bb5080c131fcb0d727f9d2d7205036fd74521719e3f7150033ec18"
+      url "https://github.com/quire-io/quire-cli/releases/download/v0.1.2/quire-linux-arm64"
+      sha256 "1077c0957d959a1f47f5025e7d84398576bfe3759a2132cc9d4293bbf00c48be"
     end
     on_intel do
       url "https://github.com/quire-io/quire-cli/releases/download/v0.1.2/quire-linux-x64"
