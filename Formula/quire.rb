@@ -1,7 +1,7 @@
 class Quire < Formula
   desc "Command-line interface to the Quire API"
   homepage "https://github.com/quire-io/quire-cli"
-  version "0.1.1"
+  version "0.1.2"
   license "ISC"
 
   livecheck do
@@ -26,8 +26,8 @@ class Quire < Formula
       sha256 "a07fa787f5bb5080c131fcb0d727f9d2d7205036fd74521719e3f7150033ec18"
     end
     on_intel do
-      url "https://github.com/quire-io/quire-cli/releases/download/v0.1.1/quire-linux-x64"
-      sha256 "642674216eb8fac9d36c62d3546b442a6d6c8c0a5aeae5f0493049397c087665"
+      url "https://github.com/quire-io/quire-cli/releases/download/v0.1.2/quire-linux-x64"
+      sha256 "d38c92cf8054bdd0fb261ed026cf48f51a75d1c9f28160dd916a85e760aef9c1"
     end
   end
 
