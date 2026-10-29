@@ -1,7 +1,7 @@
 class Quire < Formula
   desc "Command-line interface to the Quire API"
   homepage "https://github.com/quire-io/quire-cli"
-  version "1.1.3"
+  version "1.1.4"
   license "ISC"
 
   livecheck do
@@ -11,23 +11,23 @@ class Quire < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/quire-io/quire-cli/releases/download/v1.1.3/quire-darwin-arm64"
-      sha256 "a3ca95151e833971a4f38bcf6622c3198a6b13cfc02d9cc9d777b69fa3e92040"
+      url "https://github.com/quire-io/quire-cli/releases/download/v1.1.4/quire-darwin-arm64"
+      sha256 "75a8dc34cd717ae1edb753a66aac65c2d03c285f9b9b9b9b4547d172a9d7d09b"
     end
     on_intel do
-      url "https://github.com/quire-io/quire-cli/releases/download/v1.1.3/quire-darwin-x64"
-      sha256 "e92b2cde7155a53ed43ae54989c815aa50d37e4640b0287b61f4209a58b74900"
+      url "https://github.com/quire-io/quire-cli/releases/download/v1.1.4/quire-darwin-x64"
+      sha256 "2d222249dd97776842be2794deb7780e9907a65ad2906a622f936cd241055fc3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/quire-io/quire-cli/releases/download/v1.1.3/quire-linux-arm64"
-      sha256 "19e492a03406f3fab78e481299df050b7ab259bd102f910bea55b9ee5da2089e"
+      url "https://github.com/quire-io/quire-cli/releases/download/v1.1.4/quire-linux-arm64"
+      sha256 "c6752389e46d74c15b2e3338ded910e8d6727d6316d6fc160058c0029ea58681"
     end
     on_intel do
-      url "https://github.com/quire-io/quire-cli/releases/download/v1.1.3/quire-linux-x64"
-      sha256 "d21f35a87bb44e39cf0c1751b668fbd1adfa853c12a16ef34a7ba75313ec4c79"
+      url "https://github.com/quire-io/quire-cli/releases/download/v1.1.4/quire-linux-x64"
+      sha256 "b9908bb49b50a4baa41f46eb6b27436ab1fe874504ef9ab94ec3723cbe59b37a"
     end
   end
 
